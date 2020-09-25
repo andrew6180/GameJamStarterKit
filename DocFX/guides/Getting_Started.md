@@ -9,16 +9,24 @@ if you want to use UPM then
 
 # \>= 2019.3
 1) Open the package manager `Window > Package Manager` 
+
 2) Click the `+` in the top left
+
 3) Click `Add package from git URL...`
+
 4) paste `https://github.com/ajseward/GameJamStarterKit.git#upm` and hit enter
+
 5) done!
 
 # \<=2019.2 
 1) Locate `Packages\manifest.json` in your root project folder (the folder that has your assets folder in it).
+
 2) Open with a text editor
+
 3) under `"dependencies` add `"com.aseward.game-jam-starter-kit": "https://github.com/ajseward/GameJamStarterKit.git#upm"`
+
 4) It should look like this 
+
 ```json5
 {
   "dependencies": {
