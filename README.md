@@ -33,35 +33,31 @@ var dir = transform.DirectionTo(other.gameObject);
 
 ### Boilerplate Systems
 * Useful pre-made boilerplate systems ready to drop right into your game and use immediately! 
-* Example: [Health System](https://aseward.gitlab.io/gamejamstarterkit/modules/Health_System.html)
-* Example: [Currency System](https://aseward.gitlab.io/gamejamstarterkit/modules/Currency.html)
+* Example: [Health System](https://ajseward.github.io/GameJamStarterKit/Health_System.html)
+* Example: [Currency System](https://ajseward.github.io/GameJamStarterKit/Currency.html)
 
 ### Components
 * Useful components and serialized objects ready to improve your workflow and save you tons of time.
-* Example: [Background Music Player With Crossfading](https://gitlab.com/ASeward/gamejamstarterkit/-/blob/master/Assets/GameJamStarterKit/Audio/Scripts/BackgroundMusic.cs)
-* Example: [Tabular UI Layout Group](https://gitlab.com/ASeward/gamejamstarterkit/-/blob/master/Assets/GameJamStarterKit/UI/Scripts/TabLayoutGroup.cs)
+* Example: [Background Music Player With Crossfading](https://github.com/ajseward/GameJamStarterKit/blob/master/Assets/GameJamStarterKit/Audio/Scripts/BackgroundMusic.cs)
+* Example: [Tabular UI Layout Group](https://github.com/ajseward/GameJamStarterKit/blob/master/Assets/GameJamStarterKit/UI/Scripts/TabLayoutGroup.cs)
 
 ### Teamwork Oriented Tools
 * Tools, components and systems designed to help a team get started working collaboratively right off the bat.
-* Example: [FX System](https://aseward.gitlab.io/gamejamstarterkit/modules/FX_System.html)
+* Example: [FX System](https://ajseward.github.io/GameJamStarterKit/FX_System.html)
 
 ### Prototyping Assets
 * Premade simple assets ready to use for placeholders and prototyping. Not ready for a full game but good enouigh to fill in the blanks for a programmer to work with.
 * *this is still a very work in progress feature*
 
 ### So much more
-These key features only scratch the surface of what game jam starter kit can help with. For more check out the [Modules](https://aseward.gitlab.io/gamejamstarterkit/modules/Core.html) in the documentation for a brief summary of everything starter kit has to offer!
+These key features only scratch the surface of what game jam starter kit can help with. For more check out the [Modules](https://ajseward.github.io/GameJamStarterKit/Core.html) in the documentation for a brief summary of everything starter kit has to offer!
 
 # How can I get it?
 Head over to the documentation and follow the [Getting Started](https://aseward.gitlab.io/gamejamstarterkit/guides/Getting_Started.html) guide!
 
 # Links
-[Documentation](https://aseward.gitlab.io/gamejamstarterkit)
+[Documentation](https://ajseward.github.io/GameJamStarterKit/)
 
-[Modules](https://aseward.gitlab.io/gamejamstarterkit/modules/Core.html)
+[Modules](https://ajseward.github.io/GameJamStarterKit/Core.html)
 
 [Discord](https://discord.gg/zXs5MCb)
-
-
-# Contributing
-See [Wiki/Contributing](https://gitlab.com/ASeward/gamejamstarterkit/-/wikis/Contributing)
