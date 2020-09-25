@@ -3,7 +3,7 @@ Ensure you have git [https://git-scm.com/](https://git-scm.com/)
 
 If you're starting a brand new project, don't wanna mess with upm, and just want the entire project right away do 
 
-`git checkout https://gitlab.com/ASeward/gamejamstarterkit.git`
+`git checkout https://github.com/ajseward/GameJamStarterKit.git`
 
 if you want to use UPM then
 
@@ -11,18 +11,18 @@ if you want to use UPM then
 1) Open the package manager `Window > Package Manager` 
 2) Click the `+` in the top left
 3) Click `Add package from git URL...`
-4) paste `https://gitlab.com/ASeward/gamejamstarterkit.git#upm` and hit enter
+4) paste `https://github.com/ajseward/GameJamStarterKit.git#upm` and hit enter
 5) done!
 
 # \<=2019.2 
 1) Locate `Packages\manifest.json` in your root project folder (the folder that has your assets folder in it).
 2) Open with a text editor
-3) under `"dependencies` add `"com.aseward.game-jam-starter-kit": "https://gitlab.com/ASeward/gamejamstarterkit.git#upm"`
+3) under `"dependencies` add `"com.aseward.game-jam-starter-kit": "https://github.com/ajseward/GameJamStarterKit.git#upm"`
 4) It should look like this 
 ```json5
 {
   "dependencies": {
-    "com.aseward.game-jam-starter-kit": "https://gitlab.com/ASeward/gamejamstarterkit.git#upm",
+    "com.aseward.game-jam-starter-kit": "https://github.com/ajseward/GameJamStarterKit.git#upm",
     // a bunch of other packages
   }
 }
