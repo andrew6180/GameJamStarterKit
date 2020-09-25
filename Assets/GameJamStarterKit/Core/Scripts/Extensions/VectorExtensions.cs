@@ -176,6 +176,26 @@ namespace GameJamStarterKit
         }
 
         /// <summary>
+        /// Converts a Vector3 to a Vector3Int
+        /// </summary>
+        /// <param name="v">the Vector3 to convert</param>
+        /// <returns>returns a new Vector3Int using the values of the given Vector3</returns>
+        public static Vector3Int ToVector3Int(this Vector3 v)
+        {
+            return new Vector3Int((int)v.x, (int)v.y, (int)v.z);
+        }
+
+        /// <summary>
+        /// Converts a Vector2 to a Vector2Int
+        /// </summary>
+        /// <param name="v">the Vector2 to convert</param>
+        /// <returns>returns a new Vector2Int using the values of the given Vector2</returns>
+        public static Vector2Int ToVector2Int(this Vector2 v)
+        {
+            return new Vector2Int((int)v.x, (int)v.y);
+        }
+
+        /// <summary>
         /// use this vector to make a euler angle quaternion
         /// </summary>
         /// <param name="v"></param>
