@@ -53,7 +53,9 @@ var dir = transform.DirectionTo(other.gameObject);
 These key features only scratch the surface of what game jam starter kit can help with. For more check out the [Modules](https://ajseward.github.io/GameJamStarterKit/Core.html) in the documentation for a brief summary of everything starter kit has to offer!
 
 # How can I get it?
-Head over to the documentation and follow the [Getting Started](https://aseward.gitlab.io/gamejamstarterkit/guides/Getting_Started.html) guide!
+Head over to the documentation and follow the [Getting Started](https://ajseward.github.io/GameJamStarterKit/guides/Getting_Started.html) guide!
+
+**TL;DR:** Add the git URL `https://github.com/ajseward/GameJamStarterKit.git#upm` in the package manager (`Windows > Package Manager`)
 
 # Links
 [Documentation](https://ajseward.github.io/GameJamStarterKit/)
