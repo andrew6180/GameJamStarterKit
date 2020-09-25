@@ -35,11 +35,47 @@ namespace GameJamStarterKit
         }
         
         /// <summary>
-        /// returns a new Vector3 with the given x
+        /// Adds a value to this Vector3's X axis
         /// </summary>
-        /// <param name="v"></param>
-        /// <param name="x"></param>
-        /// <returns></returns>
+        /// <param name="v">this</param>
+        /// <param name="x">the value to add</param>
+        /// <returns>the vector3 with the modified X</returns>
+        public static Vector3 AddX(this Vector3 v, float x)
+        {
+            v.x += x;
+            return v;
+        }
+        
+        /// <summary>
+        /// Adds a value to this Vector3's Y axis
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <param name="y">the value to add</param>
+        /// <returns>the vector3 with the modified Y</returns>
+        public static Vector3 AddY(this Vector3 v, float y)
+        {
+            v.y += y;
+            return v;
+        }
+        
+        /// <summary>
+        /// Adds a value to this Vector3's Z axis
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <param name="Z">the value to add</param>
+        /// <returns>the vector3 with the modified Z</returns>
+        public static Vector3 AddZ(this Vector3 v, float z)
+        {
+            v.z += z;
+            return v;
+        }
+        
+        /// <summary>
+        /// sets a Vector3 to the given x
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <param name="x">the value to set x to</param>
+        /// <returns>the vector3 with the modified X</returns>
         public static Vector3 WithX(this Vector3 v, float x)
         {
             v.x = x;
@@ -47,11 +83,11 @@ namespace GameJamStarterKit
         }
 
         /// <summary>
-        /// returns a new Vector3 with the given y
+        /// sets a Vector3 to the given y
         /// </summary>
-        /// <param name="v"></param>
-        /// <param name="y"></param>
-        /// <returns></returns>
+        /// <param name="v">this</param>
+        /// <param name="y">the value to set y to</param>
+        /// <returns>the vector3 with the modified Y</returns>
         public static Vector3 WithY(this Vector3 v, float y)
         {
             v.y = y;
@@ -59,23 +95,47 @@ namespace GameJamStarterKit
         }
 
         /// <summary>
-        /// returns a new Vector3 with the given z
+        /// sets a Vector3 to the given z
         /// </summary>
-        /// <param name="v"></param>
-        /// <param name="z"></param>
-        /// <returns></returns>
+        /// <param name="v">this</param>
+        /// <param name="z">the value to set z to</param>
+        /// <returns>the vector3 with the modified Z</returns>
         public static Vector3 WithZ(this Vector3 v, float z)
         {
             v.z = z;
             return v;
         }
+        
+        /// <summary>
+        /// Adds a value to this Vector2's X axis
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <param name="x">the value to add</param>
+        /// <returns>the Vector2 with the modified X</returns>
+        public static Vector2 AddX(this Vector2 v, float x)
+        {
+            v.x += x;
+            return v;
+        }
+        
+        /// <summary>
+        /// Adds a value to this Vector2's Y axis
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <param name="y">the value to add</param>
+        /// <returns>the Vector2 with the modified Y</returns>
+        public static Vector2 AddY(this Vector2 v, float y)
+        {
+            v.y += y;
+            return v;
+        }
 
         /// <summary>
-        /// returns a new Vector2 with the given x
+        /// sets a Vector2 to the given x
         /// </summary>
-        /// <param name="v"></param>
-        /// <param name="x"></param>
-        /// <returns></returns>
+        /// <param name="v">this</param>
+        /// <param name="x">the value to set x to</param>
+        /// <returns>the vector2 with the modified X</returns>
         public static Vector2 WithX(this Vector2 v, float x)
         {
             v.x = x;
@@ -83,11 +143,11 @@ namespace GameJamStarterKit
         }
 
         /// <summary>
-        /// returns a new Vector2 with the given y
+        /// sets a Vector2 to the given y
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="y"></param>
-        /// <returns></returns>
+        /// <param name="v">this</param>
+        /// <param name="y">the value to set y to</param>
+        /// <returns>the vector2 with the modified Y</returns>
         public static Vector2 WithY(this Vector2 a, float y)
         {
             a.y = y;
