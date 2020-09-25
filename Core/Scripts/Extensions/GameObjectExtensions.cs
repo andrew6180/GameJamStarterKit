@@ -240,5 +240,39 @@ namespace GameJamStarterKit
         {
             return gameObject.transform.position.DirectionTo(other);
         }
+
+        /// <summary>
+        ///  Check if this game object's position is visible to the camera given
+        ///  <para>consider <seealso cref="RendererExtensions.IsVisibleTo"/>
+        /// if this object has a RendererComponent to check against this objects bounds instead</para> 
+        /// </summary>
+        /// <param name="gameObject">the game object to check</param>
+        /// <param name="cam">the camera to test</param>
+        /// <returns>returns true if the object is visible to the camera</returns>
+        public static bool IsVisibleTo(this GameObject gameObject, Camera cam)
+        {
+            var pos = cam.WorldToViewportPoint(gameObject.transform.position);
+            return (pos.x.IsBetweenInclusive(0, 1) && pos.y.IsBetweenInclusive(0, 1) && pos.z > 0);
+        }
+
+        /// <summary>
+        /// Moves the children of this GameObject to the target GameObject
+        /// </summary>
+        /// <param name="from">the GameObject to move from</param>
+        /// <param name="to">the GameObject to move to</param>
+        public static void MoveChildrenTo(this GameObject from, GameObject to)
+        {
+            var count = from.transform.childCount;
+            var children = new Transform[count];
+            for (var i = 0; i < count; ++i)
+            {
+                children[i] = from.transform.GetChild(i);
+            }
+
+            for (var i = 0; i < count; ++i)
+            {
+                children[i].SetParent(to.transform);
+            }
+        }
     }
 }
