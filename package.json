@@ -2,12 +2,12 @@
   "name": "com.aseward.game-jam-starter-kit",
   "displayName": "Game Jam Starter Kit",
   "description": "A Collection of useful extensions, tools, and other assets",
-  "version": "0.0.6",
-  "unity": "2018.3",
+  "version": "0.0.7",
+  "unity": "2020.1",
   "license": "CC BY 4.0",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ASeward/gamejamstarterkit.git#upm"
+    "url": "git+https://github.com/ajseward/GameJamStarterKit.git#upm"
   },
   "keywords": ["Jam", "asset", "bundle", "pack", "starter", "tool", "premade"],
   "dependencies": {
