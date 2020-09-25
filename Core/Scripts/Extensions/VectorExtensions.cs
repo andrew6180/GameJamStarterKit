@@ -33,6 +33,16 @@ namespace GameJamStarterKit
             var offset = v - currentTarget;
             return newTarget + offset;
         }
+
+        /// <summary>
+        /// Get a Vector2 of the X and Y of this Vector3
+        /// </summary>
+        /// <param name="v">this</param>
+        /// <returns>returns a Vector2 of the X and Y of a given Vector3</returns>
+        public static Vector2 XY(this Vector3 v)
+        {
+            return new Vector2(v.x, v.y);
+        }
         
         /// <summary>
         /// Adds a value to this Vector3's X axis
