@@ -39,6 +39,8 @@ Restart / launch unity, and that's it!
 
 # What now?
 
+Check out the in-editor tool to setup your initial project structure and more. `Tools > GameJamStarterKit` 
+
 [Join the Discord](https://discord.gg/zXs5MCb) for help, sharing your projects, feature requests, or anything else you'd use an asset's discord for really. 
 # How do I edit prefabs?
 To modify the prefab instance, you can place them in your scene from the `packages/GameJamStarterKit/` folder (below your assets folder, you may need to scroll) in the content browser.
@@ -69,7 +71,7 @@ so your `Packages\manifest.json` looks like this
 ```json5
 {
   "dependencies": {
-    "com.aseward.game-jam-starter-kit": "https://gitlab.com/ASeward/gamejamstarterkit.git#upm",
+    "com.aseward.game-jam-starter-kit": "https://github.com/ajseward/GameJamStarterKit.git#upm",
   },
   "enableLockFile": true,
   "resolutionStrategy": "highest",
