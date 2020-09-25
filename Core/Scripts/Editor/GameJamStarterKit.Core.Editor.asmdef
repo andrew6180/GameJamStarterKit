@@ -1,0 +1,16 @@
+{
+    "name": "GameJamStarterKit.Core.Editor",
+    "references": [
+        "GameJamStarterKit.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

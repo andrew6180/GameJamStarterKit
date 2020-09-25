@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b34a26d3eee64adc971a7a6e7d497cee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DialogModal: {fileID: 2757690132612614472, guid: cce7516e1f61dc549b6337877e169fc7,
+      type: 3}
+  - InputBlocker: {fileID: 9051831419581161443, guid: 56629082fc9064947960bd44bc82fbe5,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
