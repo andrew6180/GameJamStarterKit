@@ -1,0 +1,16 @@
+apiRules:
+- exclude:
+    uidRegex: ^System\.Object
+    type: Type
+- exclude:
+    uidRegex: ^DefaultNamespace
+    type: Namespace
+- exclude:
+    uidRegex: ^System
+    type: Namespace
+- exclude:
+    uidRegex: ^UnityEngine
+    type: Type
+- exclude:
+    uidRegex: \b.+\.Samples
+    type: Namespace

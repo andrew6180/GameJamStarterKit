@@ -1,0 +1,18 @@
+{
+    "name": "GameJamStarterKit.FXSystem.Editor",
+    "references": [
+        "GameJamStarterKit.Core",
+        "GameJamStarterKit.FXSystem",
+        "GameJamStarterKit.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

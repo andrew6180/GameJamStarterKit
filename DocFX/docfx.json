@@ -1,0 +1,57 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Assets/GameJamStarterKit",
+          "files": [
+            "**.cs"
+          ]
+        }
+      ],
+      "dest": "api",
+      "globalNamespaceId": "Global",
+      "filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "template": [
+      "statictoc"
+    ],
+    "globalMetadata":
+    {
+      "_appTitle": "Game Jam Starter Kit Documentation",
+      "_appFooter": "Game Jam Starter Kit Documentation",
+      "_enableSearch": true
+    },
+    "content": [
+      {
+        "files": [ "api/*.yml" ]
+      },
+      {
+        "src": "modules/",
+        "dest": "modules/",
+        "files": [ "toc.yml", "*.md" ]
+      },
+      {
+        "src": "guides/",
+        "dest": "guides/",
+        "files": [ "toc.yml", "*.md" ]
+      },
+      {
+        "files": [ "toc.yml", "index.md" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "resources/*" ]
+      }
+    ],
+    "sitemap":
+    {
+      "baseUrl": "https://aseward.gitlab.io/gamejamstarterkit",
+      "changefreq": "weekly"
+    },
+    "dest": "pages"
+  }
+}
