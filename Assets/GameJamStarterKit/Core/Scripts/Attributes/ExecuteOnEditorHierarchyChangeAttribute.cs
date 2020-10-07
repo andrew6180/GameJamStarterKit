@@ -1,6 +1,6 @@
 using System;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Attributes
 {
     /// <summary>
     /// Executes the marked method when the editor's hierarchy changes

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Events
 {
     /// <summary>
     /// UnityEvent with a int parameter

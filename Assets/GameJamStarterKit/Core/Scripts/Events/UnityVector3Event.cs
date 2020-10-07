@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Events
 {
     /// <summary>
     /// UnityEvent with a Vector3 parameter

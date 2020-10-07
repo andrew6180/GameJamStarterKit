@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Components
 {
     /// <summary>
     /// Component to attach to a UI providing access to some common button click actions

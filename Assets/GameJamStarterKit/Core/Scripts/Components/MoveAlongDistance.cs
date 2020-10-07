@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Components
 {
     /// <summary>
     /// Moves a GameObject along an axis for a given distance at a given speed.

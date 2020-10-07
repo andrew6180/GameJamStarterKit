@@ -1,6 +1,6 @@
 using System;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Attributes
 {
     /// <summary>
     /// Executes the attached method when the EditorApplication.update is called. (Every frame)
