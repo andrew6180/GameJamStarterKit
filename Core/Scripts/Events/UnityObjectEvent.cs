@@ -2,7 +2,7 @@ using System;
 using UnityEngine.Events;
 using Object = UnityEngine.Object;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Events
 {
     /// <summary>
     /// UnityEvent with a UnityEngine.Object parameter

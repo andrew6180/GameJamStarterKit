@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Components
 {
     /// <summary>
     /// Randomizes a GameObjects transform component on start.

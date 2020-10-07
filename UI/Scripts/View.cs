@@ -1,3 +1,4 @@
+using GameJamStarterKit.Attributes;
 using UnityEngine;
 
 namespace GameJamStarterKit.UI

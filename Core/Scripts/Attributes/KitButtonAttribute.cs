@@ -1,6 +1,6 @@
 using System;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Attributes
 {
     /// <summary>
     /// Provides a method attribute which draws a button in the inspector to call the method.

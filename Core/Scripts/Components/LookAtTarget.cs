@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameJamStarterKit
+namespace GameJamStarterKit.Components
 {
     /// <summary>
     /// Forces this GameObject to look at a target transform.
