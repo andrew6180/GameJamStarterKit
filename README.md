@@ -33,8 +33,8 @@ var dir = transform.DirectionTo(other.gameObject);
 
 ### Boilerplate Systems
 * Useful pre-made boilerplate systems ready to drop right into your game and use immediately! 
-* Example: [Health System](https://ajseward.github.io/GameJamStarterKit/Health_System.html)
-* Example: [Currency System](https://ajseward.github.io/GameJamStarterKit/Currency.html)
+* Example: [Health System](https://ajseward.github.io/GameJamStarterKit/modules/Health_System.html)
+* Example: [Currency System](https://ajseward.github.io/GameJamStarterKit/modules/Currency.html)
 
 ### Components
 * Useful components and serialized objects ready to improve your workflow and save you tons of time.
@@ -43,7 +43,7 @@ var dir = transform.DirectionTo(other.gameObject);
 
 ### Teamwork Oriented Tools
 * Tools, components and systems designed to help a team get started working collaboratively right off the bat.
-* Example: [FX System](https://ajseward.github.io/GameJamStarterKit/FX_System.html)
+* Example: [FX System](https://ajseward.github.io/GameJamStarterKit/modules/FX_System.html)
 
 ### Prototyping Assets
 * Premade simple assets ready to use for placeholders and prototyping. Not ready for a full game but good enouigh to fill in the blanks for a programmer to work with.
