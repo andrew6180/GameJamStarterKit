@@ -10,7 +10,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkot@master
+    - uses: actions/checkout@master
 
     - name: upm
       uses: s0/git-publish-subdir-action@develop
