@@ -1,0 +1,24 @@
+name: Build DocFX and push to gh-pages
+
+on:
+  push:
+    brnaches:
+      - master
+
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    name: Build and deploy DocFX
+    steps:
+    - uses: actions/checkout@v1
+
+    - uses: nikeee/docfx-action@v1.0.0
+      name: Build DocFX
+      with:
+        args: DocFX/docfx.json
+
+    - uses: maxheld83/ghpages@master
+      name: Deploy gh-pages
+      env: 
+        BUILD_DIR: DocFX/pages
+        GH_PAT: ${{ secrets.GH_PAT }}
