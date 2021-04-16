@@ -13,9 +13,9 @@ jobs:
     - uses: actions/checkot@master
 
     - name: upm
-    uses: s0/git-publish-subdir-action@develop
-    env:
-      REPO: self
-      BRANCH: upm
-      FOLDER: Assets/GameJamStarterKit
-      GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: self
+        BRANCH: upm
+        FOLDER: Assets/GameJamStarterKit
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
