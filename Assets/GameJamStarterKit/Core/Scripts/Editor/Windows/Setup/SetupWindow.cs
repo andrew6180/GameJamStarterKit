@@ -20,6 +20,9 @@ namespace GameJamStarterKit.Editor
         internal FolderFlags Folders = FolderFlags.Default;
 
         [SerializeField]
+        private bool ShowURLs;
+        
+        [SerializeField]
         private bool ShowGitInstaller;
 
         [SerializeField]
@@ -49,6 +52,9 @@ namespace GameJamStarterKit.Editor
         [SerializeField]
         private bool ShowDotsPackages;
 
+        [SerializeField]
+        private bool ShowImageDimensions;
+
         private const int RESPONSIVE_WIDTH = 450;
 
         [MenuItem(ROOT_MENU + "Setup", false, -1)]
@@ -63,10 +69,12 @@ namespace GameJamStarterKit.Editor
         {
             ScrollPosition = EditorGUILayout.BeginScrollView(ScrollPosition);
             DrawInfoPanel();
+            DrawUsefulURLs();
             DrawCreateFolders();
             DrawPackageInstaller();
             DrawGitPackageInstaller();
             DrawProjectSettings();
+            DrawImageDimensions();
 
             EditorGUILayout.Separator();
             DrawOpenProjectButton();
@@ -82,6 +90,60 @@ namespace GameJamStarterKit.Editor
             EditorGUILayout.HelpBox(MSG, MessageType.Warning);
         }
 
+        private void DrawUsefulURLs()
+        {
+            KitGUILayout.BeginCleanFoldout("Useful URLs", ref ShowURLs);
+            if (ShowURLs)
+            {
+                EditorGUILayout.Separator();
+                
+                // github
+                if (GUILayout.Button("Game Jam Starter Kit - Github", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://github.com/ajseward/GameJamStarterKit");
+                }
+                
+                // poly.pizza
+                if (GUILayout.Button("poly.pizza - Rehosted poly.google. Thousands of free to use models", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://poly.pizza/");
+                }
+                EditorGUILayout.HelpBox("Assets from poly.pizza will likely need to be imported into blender and re-exported as fbx.", MessageType.Warning);
+                
+                // open game art
+                if (GUILayout.Button("OpenGameArt - Free to use Assets", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://opengameart.org/");
+                }
+                
+                // FMA 
+                if (GUILayout.Button("FreeMusicArchive - Free music searchable by genre", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://freemusicarchive.org/");
+                }
+                
+                // FreeSound
+                if (GUILayout.Button("FreeSound - Free sound effects / recordings", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://freesound.org/");
+                }
+                
+                // Dafont
+                if (GUILayout.Button("dafont - large library of fonts.", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://www.dafont.com/");
+                }
+                EditorGUILayout.HelpBox("Ensure a font is free before downloading", MessageType.Warning);
+                
+                // itch.io
+                if (GUILayout.Button("Itch.io Create New Project - Direct link to creating a new project on itch.io", GUILayout.Height(30)))
+                {
+                    Application.OpenURL("https://itch.io/game/new");
+                }
+            }
+            KitGUILayout.EndCleanFoldout();
+        }
+        
         private void DrawCreateFolders()
         {
             KitGUILayout.BeginCleanFoldout("Create Folder Structure", ref ShowFolderSetup);
@@ -131,6 +193,44 @@ namespace GameJamStarterKit.Editor
                 DrawPackageSection("Utility", ref ShowUtilityPackages, _control.PackageInfo.UtilityPackages);
                 DrawPackageSection("Rendering", ref ShowRenderingPackages, _control.PackageInfo.RenderingPackages);
                 DrawPackageSection("DOTS", ref ShowDotsPackages, _control.PackageInfo.DotsPackages);
+                
+                if (GUILayout.Button("Install Selected Packages", GUILayout.Height(30)))
+                {
+                    _control.InstallPackages(_control.PackageInfo.DotsPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.InstallPackages(_control.PackageInfo.RenderingPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.InstallPackages(_control.PackageInfo.UtilityPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.InstallPackages(_control.PackageInfo.Packages3D
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.InstallPackages(_control.PackageInfo.Packages2D
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                }
+                
+                if (GUILayout.Button("Uninstall Selected Packages", GUILayout.Height(30)))
+                {
+                    _control.UninstallPackages(_control.PackageInfo.DotsPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.UninstallPackages(_control.PackageInfo.RenderingPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.UninstallPackages(_control.PackageInfo.UtilityPackages
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.UninstallPackages(_control.PackageInfo.Packages3D
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                    _control.UninstallPackages(_control.PackageInfo.Packages2D
+                        .Where(p => p.Install)
+                        .Select(p => p.PackageURL));
+                }
             }
 
             KitGUILayout.EndCleanFoldout();
@@ -285,6 +385,26 @@ namespace GameJamStarterKit.Editor
                 CodeEditor.CurrentEditor.OpenProject();
             }
 #endif
+        }
+
+        private void DrawImageDimensions()
+        {
+            KitGUILayout.BeginCleanFoldout("Image Dimension References", ref ShowImageDimensions);
+            if (ShowImageDimensions)
+            {
+                EditorGUILayout.Separator();
+
+                const string UNITY = "Unity:\n" +
+                                     "Icon: 16x16 to 1024x1024";
+                EditorGUILayout.HelpBox(UNITY, MessageType.Info);
+
+                const string ITCHIO = "itch.io:\n" +
+                                      "Page Banner: 960x400 px\n" +
+                                      "Screenshots (Recommended): 16:9 | 4:3 | 3:4 | 1:1\n" +
+                                      "Max File Size: 3MB";
+                EditorGUILayout.HelpBox(ITCHIO, MessageType.Info);
+            }
+            KitGUILayout.EndCleanFoldout();
         }
     }
 }
