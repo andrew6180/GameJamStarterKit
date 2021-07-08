@@ -104,7 +104,7 @@ namespace GameJamStarterKit.Editor
                         {
                             PackageURL = "com.unity.inputsystem",
                             Install = false,
-                            PackageName = "(Preview) New Input System"
+                            PackageName = "New Input System"
                         }
                     };
                 }
@@ -182,14 +182,7 @@ namespace GameJamStarterKit.Editor
                         {
                             PackageURL = "com.unity.render-pipelines.high-definition",
                             Install = false,
-                            PackageName = "(Preview) High Definition RP"
-                        },
-                        // Post processing stack v2
-                        new KitPackageInfo
-                        {
-                            PackageURL = "com.unity.postprocessing",
-                            Install = false,
-                            PackageName = "Post-Processing Stack v2"
+                            PackageName = "High Definition RP"
                         },
                         // Open VR / Steam VR
                         new KitPackageInfo

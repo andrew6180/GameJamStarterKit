@@ -99,9 +99,11 @@ namespace GameJamStarterKit.Camera
         {
             var tr = transform;
             _targetRotation = tr.rotation;
-            _targetPosition = tr.position;
+            _targetPosition = GetTargetPosition();
+            _currentPosition = _targetPosition;
             _startRotation = tr.localRotation;
             _currentProbeDistance = ProbeDistance;
+            _currentProbeEnd = GetProbePosition(_currentPosition, _currentProbeDistance);
         }
 
         protected void LateUpdate()
