@@ -38,12 +38,18 @@ var dir = transform.DirectionTo(other.gameObject);
 
 ### Components
 * Useful components and serialized objects ready to improve your workflow and save you tons of time.
-* Example: [Background Music Player With Crossfading](https://github.com/ajseward/GameJamStarterKit/blob/master/Assets/GameJamStarterKit/Audio/Scripts/BackgroundMusic.cs)
-* Example: [Tabular UI Layout Group](https://github.com/ajseward/GameJamStarterKit/blob/master/Assets/GameJamStarterKit/UI/Scripts/TabLayoutGroup.cs)
+* Example: [Background Music Player With Crossfading](https://ajseward.github.io/GameJamStarterKit/api/GameJamStarterKit.Audio.BackgroundMusic.html)
+* Example: [Camera Spring Arm (Similar to UE4)](https://ajseward.github.io/GameJamStarterKit/api/GameJamStarterKit.Camera.SpringArm.html)
 
 ### Teamwork Oriented Tools
 * Tools, components and systems designed to help a team get started working collaboratively right off the bat.
 * Example: [FX System](https://ajseward.github.io/GameJamStarterKit/modules/FX_System.html)
+
+### Helpful Classes 
+* Complex classes that would take a lot of effort to implement efficiently but are small in scope.
+* Example: [Modifiable Values](https://ajseward.github.io/GameJamStarterKit/modules/Modifiers.html)
+* Example: [Audio Pool](https://ajseward.github.io/GameJamStarterKit/api/GameJamStarterKit.Audio.AudioPool.html)
+* Example: [Singleton(s)](https://ajseward.github.io/GameJamStarterKit/api/GameJamStarterKit.Singleton-1.html) & [Persistent Singleton(s)](https://ajseward.github.io/GameJamStarterKit/api/GameJamStarterKit.PersistentSingleton-1.html)
 
 ### Prototyping Assets
 * Premade simple assets ready to use for placeholders and prototyping. Not ready for a full game but good enouigh to fill in the blanks for a programmer to work with.
@@ -55,12 +61,12 @@ These key features only scratch the surface of what game jam starter kit can hel
 # How can I get it?
 Head over to the documentation and follow the [Getting Started](https://ajseward.github.io/GameJamStarterKit/guides/Getting_Started.html) guide!
 
-**TL;DR:** Add the git URL `https://github.com/ajseward/GameJamStarterKit.git#upm` in the package manager (`Windows > Package Manager`)
+**TL;DR:** Add the git URL `https://github.com/ajseward/GameJamStarterKit.git#upm` in the package manager (`Windows > Package Manager`) or download a [release version](https://github.com/ajseward/GameJamStarterKit/releases)
 
 # Links
 [Documentation](https://ajseward.github.io/GameJamStarterKit/)
 
-[Modules](https://ajseward.github.io/GameJamStarterKit/Core.html)
+[Modules](https://ajseward.github.io/GameJamStarterKit/modules/Core.html)
 
 
 # Notable Games Made with GameJamStarterKit

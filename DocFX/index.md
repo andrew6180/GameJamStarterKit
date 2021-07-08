@@ -3,14 +3,14 @@ Game Jam Starter Kit is a collection of useful extensions, systems, and assets d
 
 # What Game Jam Starter Kit isn't
 This is not a collection of pre-made games, gameplay systems, or other 'game in a box' style tools. Jam Kit is intended to help you make a game from scratch. 
-q
+
 # How can I get it?
 Ensure you have git [https://git-scm.com/](https://git-scm.com/)
 
 Use the unity package manager to install from the git URL `https://github.com/ajseward/GameJamStarterKit.git#upm`
 
 ### My UPM doesn't support git urls! 
-for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or cloning the entire repo and copying the kit into the folder.
+for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or downloading a [release](https://github.com/ajseward/GameJamStarterKit/releases) version. 
  
  
 # how do I update git UPM packages!?
@@ -52,9 +52,3 @@ If you removed the `"lock": { ... }` section, or didn't have it, you should be s
 
 # Links
 [Github - Issue Tracker](https://github.com/ajseward/GameJamStarterKit/issues)
-
-[Documentation / Manual]()
-
-[API Reference]()
-
-[Discord](https://discord.gg/zXs5MCb)
