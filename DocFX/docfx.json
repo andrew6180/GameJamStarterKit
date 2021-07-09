@@ -45,6 +45,9 @@
     "resource": [
       {
         "files": [ "resources/*" ]
+      },
+      {
+        "files": [ "favicon.ico", "logo.svg" ]
       }
     ],
     "sitemap":

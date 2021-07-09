@@ -56,7 +56,7 @@ var dir = transform.DirectionTo(other.gameObject);
 * *this is still a very work in progress feature*
 
 ### So much more
-These key features only scratch the surface of what game jam starter kit can help with. For more check out the [Modules](https://ajseward.github.io/GameJamStarterKit/Core.html) in the documentation for a brief summary of everything starter kit has to offer!
+These key features only scratch the surface of what game jam starter kit can help with. For more check out the [Modules](https://ajseward.github.io/GameJamStarterKit/modules/Core.html) in the documentation for a brief summary of everything starter kit has to offer!
 
 # How can I get it?
 Head over to the documentation and follow the [Getting Started](https://ajseward.github.io/GameJamStarterKit/guides/Getting_Started.html) guide!

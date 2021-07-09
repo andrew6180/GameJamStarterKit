@@ -1,10 +1,7 @@
 # Installation
 Ensure you have git [https://git-scm.com/](https://git-scm.com/)
 
-If you're starting a brand new project, don't wanna mess with upm, and just want the entire project right away do 
-
-`git checkout https://github.com/ajseward/GameJamStarterKit.git`
-
+If you're starting a brand new project, don't wanna mess with upm, and just want the entire project right away download the latest [release](https://github.com/ajseward/GameJamStarterKit/releases)
 if you want to use UPM then
 
 # \>= 2019.3
@@ -41,14 +38,13 @@ Restart / launch unity, and that's it!
 
 Check out the in-editor tool to setup your initial project structure and more. `Tools > GameJamStarterKit` 
 
-[Join the Discord](https://discord.gg/zXs5MCb) for help, sharing your projects, feature requests, or anything else you'd use an asset's discord for really. 
 # How do I edit prefabs?
 To modify the prefab instance, you can place them in your scene from the `packages/GameJamStarterKit/` folder (below your assets folder, you may need to scroll) in the content browser.
 
 To edit the prefab directly, you can 'copy' them to your project by dragging the prefab from the packages folder to your assets folder.
 
 ### My UPM doesn't support git urls! 
-for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or cloning the entire repo and copying the modules you want to use.
+for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or downloading the latest [release version](https://github.com/ajseward/GameJamStarterKit/releases)
  
  
 # how do I update git UPM packages!?

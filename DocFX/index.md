@@ -10,7 +10,7 @@ Ensure you have git [https://git-scm.com/](https://git-scm.com/)
 Use the unity package manager to install from the git URL `https://github.com/ajseward/GameJamStarterKit.git#upm`
 
 ### My UPM doesn't support git urls! 
-for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or downloading a [release](https://github.com/ajseward/GameJamStarterKit/releases) version. 
+for `<=2018.2` package manager does not support git urls. Your best bet is either upgrading to `>=2018.3` or downloading a [release version](https://github.com/ajseward/GameJamStarterKit/releases). 
  
  
 # how do I update git UPM packages!?
