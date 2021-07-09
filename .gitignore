@@ -47,6 +47,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+
 # Crashlytics generated file
 crashlytics-build.properties
 
@@ -54,17 +55,11 @@ crashlytics-build.properties
 DocFX/api
 DocFX/obj
 
-#PlayerPrefAnything
-PlayerPerfAnything/*.dat
-PlayerPrefAnythingTestRunner
-[Aa]ssets/Plugins/PlayerPrefAnything/Resources/PlayerPrefAnythingBuildData.*
-[Aa]ssets/Plugins/PlayerPrefAnything/Resources/PlayerPrefAnything.*
-PlayerPrefAnything/PNGS/*
 [Aa]ssets/Plugins/Editor/JetBrains*
-PlayerPrefAnythingResults.csv
 
 
 #Ignore Test Scenes
 [Aa]ssets/InitTestScene*
+[Aa]ssets/AssetStoreTools*
 
 Packages/manifest.json
