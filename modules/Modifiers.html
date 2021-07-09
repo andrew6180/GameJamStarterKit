@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Modifiers | Game Jam Starter Kit Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Modifiers | Game Jam Starter Kit Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../api/GameJamStarterKit.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="../modules/Core.html" title="Modules">Modules</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Getting_Started.html" title="Guides">Guides</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="Core.html" title="Core" class="">Core</a>
+                    </li>
+                    <li class="">
+                      <a href="UI.html" title="UI" class="">UI</a>
+                    </li>
+                    <li class="">
+                      <a href="FX_System.html" title="FX System" class="">FX System</a>
+                    </li>
+                    <li class="">
+                      <a href="Health_System.html" title="Health System" class="">Health System</a>
+                    </li>
+                    <li class="">
+                      <a href="Camera.html" title="Camera" class="">Camera</a>
+                    </li>
+                    <li class="">
+                      <a href="Audio.html" title="Audio" class="">Audio</a>
+                    </li>
+                    <li class="">
+                      <a href="Currency.html" title="Currency" class="">Currency</a>
+                    </li>
+                    <li class="active">
+                      <a href="Modifiers.html" title="Modifiers" class="active">Modifiers</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="modifiers">Modifiers</h1>
+
+<p><code>GameJamStarterKit.Modifiers</code> is a system to create modifiable fields, and a buff / debuff system.  </p>
+<h1 id="how-it-works">How it works</h1>
+<p>Declare a new modifier</p>
+<pre><code class="lang-c#">public ModifiableValue&lt;float&gt; MyFloat = 10f;
+</code></pre><p>Create a modifier for it </p>
+<pre><code class="lang-c#">var modifier = ValueModifier&lt;float&gt;(initialValue =&gt; { return initialValue + 10; });
+</code></pre><p>add the modifier to <code>MyFloat</code></p>
+<pre><code class="lang-c#">MyFloat.AddModifier(modifier);
+</code></pre><p>Now <code>MyFloat = 20f</code> so long as <code>modifier</code> is added.</p>
+<p>Remove <code>modifier</code></p>
+<pre><code class="lang-c#">MyFloat.RemoveModifier(modifier);
+</code></pre><h1 id="seeing-modifiablevaluet-in-the-inspector">Seeing <code>ModifiableValue&lt;T&gt;</code> in the inspector</h1>
+<h3 id="20201-or-higher">2020.1 or higher</h3>
+<p><code>ModifiableValue&lt;T&gt;</code> should display properly since <code>2020.1</code> adds support for generics in the inspector.</p>
+<h3 id="20193-or-less">2019.3 or less</h3>
+<p>There are many ways to work around it without creating extra bloat. The easiest solution imo is to declare an initial value and use it to initialize your <code>ModifiableValue&lt;T&gt;</code> on awake.</p>
+<p>Example:</p>
+<pre><code class="lang-c#">public ModifiableValue&lt;float&gt; MyFloat;
+[SerializeField]
+private float _myFloatInitialValue;
+private void Awake()
+{
+    MyFloat = _myFloatInitialValue;
+}
+</code></pre><p>which thanks to implicit operators, essentially calls <code>new ModifiableValue&lt;float&gt;(_myFloatInitialValue);</code>. Just ensure no modifiers are added before the initial value is setup
+or put the script at the top of your execution order.</p>
+<h1 id="examples">Examples</h1>
+<h2 id="creating-a-buff-that-increases-speed-for-a-duration-sprint">Creating a buff that increases speed for a duration. (Sprint)</h2>
+<pre><code class="lang-c#">public class MyCharacter : MonoBehaviour
+{
+    public ModifiableValue&lt;float&gt; Speed;
+
+    // to get BaseSpeed in the inspector this is necessary unless on 2020.1 or higher
+    [SerializeField] private float BaseSpeed = 8f;
+    private ValueModifier&lt;float&gt; _sprintModifier;
+    private void Awake()
+    {
+        // increase speed by 2x for 2 seconds.
+        _speedModifier = new ValueModifier&lt;float&gt;(speed =&gt; speed * 2f, 2f);
+        Speed = BaseSpeed; 
+
+    }
+
+    public void Sprint()
+    {
+        Speed.AddModifier(_speedModifier);
+    }
+
+    public void StopSprint()
+    {
+        Speed.RemoveModifier(_speedModifier);
+    }
+
+}
+</code></pre><h3 id="but-wait-what-if-the-player-finds-a-way-to-call-that-more-than-once">But wait, what if the player finds a way to call that more than once?</h3>
+<p>Replace </p>
+<pre><code class="lang-c#">Speed.AddModifier(_speedModifier);
+// and 
+Speed.RemoveModifier(_speedModifier);
+</code></pre><p>with</p>
+<pre><code class="lang-c#">Speed.AddKeyedModifier(_speedModifier, &quot;sprint&quot;);
+// and
+Speed.RemoveKeyedModifier(&quot;sprint&quot;);
+</code></pre><p>which will only allow 1 modifier for the key given.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ajseward/GameJamStarterKit/blob/d572dcd78360c608bbc935abb566dcdf95b9a396/DocFX/modules/Modifiers.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Game Jam Starter Kit Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

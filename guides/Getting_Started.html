@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Installation | Game Jam Starter Kit Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Installation | Game Jam Starter Kit Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../api/GameJamStarterKit.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="../modules/Core.html" title="Modules">Modules</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Getting_Started.html" title="Guides">Guides</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="active">
+                      <a href="Getting_Started.html" title="Getting Started" class="active">Getting Started</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="installation">Installation</h1>
+
+<p>Ensure you have git <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+<p>If you&#39;re starting a brand new project, don&#39;t wanna mess with upm, and just want the entire project right away download the latest <a href="https://github.com/ajseward/GameJamStarterKit/releases">release</a>
+if you want to use UPM then</p>
+<h1 id="-20193">>= 2019.3</h1>
+<p>1) Open the package manager <code>Window &gt; Package Manager</code> </p>
+<p>2) Click the <code>+</code> in the top left</p>
+<p>3) Click <code>Add package from git URL...</code></p>
+<p>4) paste <code>https://github.com/ajseward/GameJamStarterKit.git#upm</code> and hit enter</p>
+<p>5) done!</p>
+<h1 id="20192">&lt;=2019.2</h1>
+<p>1) Locate <code>Packages\manifest.json</code> in your root project folder (the folder that has your assets folder in it).</p>
+<p>2) Open with a text editor</p>
+<p>3) under <code>&quot;dependencies</code> add <code>&quot;com.aseward.game-jam-starter-kit&quot;: &quot;https://github.com/ajseward/GameJamStarterKit.git#upm&quot;</code></p>
+<p>4) It should look like this </p>
+<pre><code class="lang-json5">{
+  &quot;dependencies&quot;: {
+    &quot;com.aseward.game-jam-starter-kit&quot;: &quot;https://github.com/ajseward/GameJamStarterKit.git#upm&quot;,
+    // a bunch of other packages
+  }
+}
+</code></pre><p>Restart / launch unity, and that&#39;s it!</p>
+<h1 id="what-now">What now?</h1>
+<p>Check out the in-editor tool to setup your initial project structure and more. <code>Tools &gt; GameJamStarterKit</code> </p>
+<h1 id="how-do-i-edit-prefabs">How do I edit prefabs?</h1>
+<p>To modify the prefab instance, you can place them in your scene from the <code>packages/GameJamStarterKit/</code> folder (below your assets folder, you may need to scroll) in the content browser.</p>
+<p>To edit the prefab directly, you can &#39;copy&#39; them to your project by dragging the prefab from the packages folder to your assets folder.</p>
+<h3 id="my-upm-doesnt-support-git-urls">My UPM doesn&#39;t support git urls!</h3>
+<p>for <code>&lt;=2018.2</code> package manager does not support git urls. Your best bet is either upgrading to <code>&gt;=2018.3</code> or downloading the latest <a href="https://github.com/ajseward/GameJamStarterKit/releases">release version</a></p>
+<h1 id="how-do-i-update-git-upm-packages">how do I update git UPM packages!?</h1>
+<p>UPM locks to whatever the latest commit was when you added the project. </p>
+<h2 id="20193">>=2019.3</h2>
+<p>if you already have <code>Packages\packages-lock.json</code>, delete the file and unity should update to the latest version for all your git packages.</p>
+<p>if you do not have <code>packages-lock.json</code> continue</p>
+<p>Add this to your <code>Packages\manifest.json</code> after <code>&quot;dependencies&quot;: { ... }</code></p>
+<pre><code>  &quot;enableLockFile&quot;: true,
+  &quot;resolutionStrategy&quot;: &quot;highest&quot;,
+</code></pre><p>If there is a <code>&quot;lock:&quot; { ... }</code> section, delete it.</p>
+<p>so your <code>Packages\manifest.json</code> looks like this </p>
+<pre><code class="lang-json5">{
+  &quot;dependencies&quot;: {
+    &quot;com.aseward.game-jam-starter-kit&quot;: &quot;https://github.com/ajseward/GameJamStarterKit.git#upm&quot;,
+  },
+  &quot;enableLockFile&quot;: true,
+  &quot;resolutionStrategy&quot;: &quot;highest&quot;,
+}
+</code></pre><p><strong>What did I just do?</strong></p>
+<p>This forces UPM to use a packages-lock.json file in the future.</p>
+<p>essentially a file for that <code>&quot;lock:&quot; { ... }</code> section.</p>
+<p>If you removed the <code>&quot;lock&quot;: { ... }</code> section, or didn&#39;t have it, you should be safe to open unity and it will update to the latest version of the git package.</p>
+<p><strong>In the future, delete <code>Packages\packages-lock.json</code> and it should update your git packages.</strong></p>
+<h2 id="20192-1">&lt;=2019.2</h2>
+<p>In <code>Packages\manifest.json</code> locate the section for <code>&quot;lock&quot;: { ... }</code>.</p>
+<p>It will look something like this </p>
+<pre><code class="lang-json5">  &quot;lock&quot;: {
+    &quot;com.aseward.game-jam-starter-kit&quot;: {
+      &quot;hash&quot;: &quot;b93a03f45e25e075987d50157ffe0c0960607aa6&quot;,
+      &quot;revision&quot;: &quot;HEAD&quot;
+    }
+</code></pre><p>remove the entire section, save, and start unity.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ajseward/GameJamStarterKit/blob/d572dcd78360c608bbc935abb566dcdf95b9a396/DocFX/guides/Getting_Started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Game Jam Starter Kit Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

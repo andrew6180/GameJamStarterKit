@@ -1,0 +1,1682 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aseward.gitlab.io/gamejamstarterkit/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/DocFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AnimationParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AnimationParameter.html",
+          "hash": "sbabYtUl4icEXkVbTyUBoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AnimatorEventBridge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AnimatorEventBridge.html",
+          "hash": "iSDUjDVIgX8rWu6jNU3zdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AnimatorEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AnimatorEventData.html",
+          "hash": "G8vBDR7QY/LcEjaelhZdnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AnimatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AnimatorExtensions.html",
+          "hash": "p4IClMJPqtbBugiqnssWNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AsyncUnityUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AsyncUnityUtility.html",
+          "hash": "Z8sebFiZyQZMlzufo+g6fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Attributes.ExecuteOnEditorHierarchyChangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Attributes.ExecuteOnEditorHierarchyChangeAttribute.html",
+          "hash": "yqnLVErVA1i7c0GGBlu0aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Attributes.ExecuteOnEditorUpdateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Attributes.ExecuteOnEditorUpdateAttribute.html",
+          "hash": "vKF1KOgo1KzfkEqP9zIWCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Attributes.KitButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Attributes.KitButtonAttribute.html",
+          "hash": "xtaW8kaXXntJ2tCW/T7p4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Attributes.KitOnlyPrefabAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Attributes.KitOnlyPrefabAsset.html",
+          "hash": "sgo1kD7CAZq/vE4Ft9piow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Attributes.html",
+          "hash": "czfurn2PZ5mtUpZXYAQIeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.AudioPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.AudioPool.html",
+          "hash": "vGaKXr6JCzK09aSwYsHn9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.BackgroundMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.BackgroundMusic.html",
+          "hash": "9IBLJfVFek/UKJGEfK8kCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.Editor.BackgroundMusicEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.Editor.BackgroundMusicEditor.html",
+          "hash": "QUcOiygq0uegjRHrU2UKLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.Editor.html",
+          "hash": "qTTCEihQXo1On8iX23K0xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.PersistentBackgroundMusic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.PersistentBackgroundMusic.html",
+          "hash": "YF9PfGCC/7+G2AUz9dmoXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Audio.html",
+          "hash": "ZBoTSFud5fggiLrWKyWuuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AudioClipCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AudioClipCollection.html",
+          "hash": "oigfvp30UABsUUoKaRTMLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AudioSourceCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AudioSourceCallback.html",
+          "hash": "XAFn9wkcEzZcg7PZ9sG8fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AudioSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AudioSourceExtensions.html",
+          "hash": "u/9tqeyg2XfRRXse+BR6dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.AudioSourceUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.AudioSourceUnityEvent.html",
+          "hash": "q8UChMskMKkQ0raJzVU6mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.BasePool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.BasePool-1.html",
+          "hash": "jNMCFlMGbdNr13jKiQDU4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Camera.CameraExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Camera.CameraExtensions.html",
+          "hash": "eUftsYjcM/aoXmnloIiITA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Camera.CameraShakeProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Camera.CameraShakeProfile.html",
+          "hash": "mF6BY8zzw+tFmBhpNu6sdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Camera.CameraShaker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Camera.CameraShaker.html",
+          "hash": "3Lxf8X9XtqZlWz/AJ/Dp0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Camera.SpringArm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Camera.SpringArm.html",
+          "hash": "n6An1775kE8Vews0CIaMdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Camera.html",
+          "hash": "rVz68kSTQCIE1efeVajQTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Collider2DExtnesions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Collider2DExtnesions.html",
+          "hash": "fn9CH4oR1AGOKW8rICGl0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.ColliderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.ColliderExtensions.html",
+          "hash": "FeaFwlLNm5D69ld72VNorA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.ComparableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.ComparableExtensions.html",
+          "hash": "0H4023w7a9BFUZQl1f/S4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.CommonButtonActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.CommonButtonActions.html",
+          "hash": "QY4Ta0EhZM72ybavsi/+lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.ConstantRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.ConstantRotation.html",
+          "hash": "lAL9qcY2SYmGVspnJYaYCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.LookAtTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.LookAtTarget.html",
+          "hash": "Yl4MJxeM8GWkmHZwtigvVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.MoveAlongDistance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.MoveAlongDistance.html",
+          "hash": "oBaXiasZa0oXo2w2sgrxFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.RandomizeTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.RandomizeTransform.html",
+          "hash": "uw8H6NmkNNdyNIZRb+KUMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Components.html",
+          "hash": "4XAWMCxMGUYU0F8YnUax+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.BuyableComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.BuyableComponent.html",
+          "hash": "bzTUoycrOEFv0sU6ytytRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.Currency.html",
+          "hash": "FWHuUxdhKsbDQnIBwuQuhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.CurrencyDoubleUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.CurrencyDoubleUnityEvent.html",
+          "hash": "yIBlgbJ121znLl5Yn9QA6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.CurrencyObjectUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.CurrencyObjectUnityEvent.html",
+          "hash": "UB0q28RLznnWiMgaekz8Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.IBuyable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.IBuyable.html",
+          "hash": "tYObe5nIkXa9Z0KRM0u5AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.ISellable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.ISellable.html",
+          "hash": "8vebkVf81Y5k7pgE8PUsSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.SellableComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.SellableComponent.html",
+          "hash": "F04LQUFd1MTpuW2cCKInXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.Wallet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.Wallet.html",
+          "hash": "Pp2mtdZHHuB42cqVAs1uHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Currency.html",
+          "hash": "/+cHLtXu66npt36wQnfEKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Demo.CharacterInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Demo.CharacterInput.html",
+          "hash": "5edBTbzmrxU4QOQS3h/LdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Demo.ReloadSceneButtonDemo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Demo.ReloadSceneButtonDemo.html",
+          "hash": "7TuUDZh3LybKMXzUaoektQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Demo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Demo.html",
+          "hash": "Xqe2l9gkOJNF7fqm57gIag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.KitButtonEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.KitButtonEditor.html",
+          "hash": "oSr6Ylx4GRiyXjd4JicGaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.KitEditorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.KitEditorExtensions.html",
+          "hash": "T6lniuf0NoZYW9EHDX61Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.KitGUILayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.KitGUILayout.html",
+          "hash": "mu3+tHfSLiRbYULSoU7Ngw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.KitOnlyPrefabAssetPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.KitOnlyPrefabAssetPropertyDrawer.html",
+          "hash": "v4SXW7H7+njATdG55eVERQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.SerializedPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.SerializedPropertyExtensions.html",
+          "hash": "r4d5SmXreDrahZE8wBD0Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Editor.html",
+          "hash": "UzQchDvZZZecUBi4zV3JUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityBoolEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityBoolEvent.html",
+          "hash": "IAnOwohK6Zsx+CFK3facCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityFloatEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityFloatEvent.html",
+          "hash": "FMfCK51AwtekXkEv/7w6MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityGameObjectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityGameObjectEvent.html",
+          "hash": "iRvDzGiF/Uka7vCJdxE6IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityIntEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityIntEvent.html",
+          "hash": "tADBkyvNbN73gLWi2D1Xbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityObjectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityObjectEvent.html",
+          "hash": "6tok7rXdZe/GNOLQk/9Aig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityStringEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityStringEvent.html",
+          "hash": "m33kkctVgmeXDw5IAgLQeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityTransformEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityTransformEvent.html",
+          "hash": "qAj3d3NyxKlw9fGuC08FCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityVector2Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityVector2Event.html",
+          "hash": "mghlGblVDUQ0uXBpnkXyZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.UnityVector3Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.UnityVector3Event.html",
+          "hash": "hR50XMin9sTcCjNMnLyK8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Events.html",
+          "hash": "WWd2Nib/cj06mYf7AufyPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.DespawnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.DespawnType.html",
+          "hash": "B+de66OzDRbE9gA/T4LeMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.AnimationParameterPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.AnimationParameterPropertyDrawer.html",
+          "hash": "NURIKs8hk8aR/sfSQA1bcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.FXSpawnerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.FXSpawnerEditor.html",
+          "hash": "9/Dt+zr1nCuPdwugj1Z0zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.FXUnitEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.FXUnitEditor.html",
+          "hash": "XbVj2BXulIOMEHTT0NxkJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.RandomizeAnimatorParametersEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.RandomizeAnimatorParametersEditor.html",
+          "hash": "VCh9b9yfezVkSviYIl7fYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.RandomizeParameterDataPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.RandomizeParameterDataPropertyDrawer.html",
+          "hash": "HkJLRSZr4HGZMVjOdinmHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Editor.html",
+          "hash": "UCqA7A1M+cnYWOETCRQ/gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.FXSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.FXSpawner.html",
+          "hash": "69aQcnvJB5efiDyGTXbvQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.FXSpawnerItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.FXSpawnerItem.html",
+          "hash": "/XEB5oHiBU0//hd0B8TQKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.FXUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.FXUnit.html",
+          "hash": "jpHpxzJxQBjCqi4dCGHNvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.RandomizeParameterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.RandomizeParameterData.html",
+          "hash": "hJw1whXmMSQDmG93BjG2aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.RandomizeParameterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.RandomizeParameterType.html",
+          "hash": "N3yed96NAXQ/KEOVwn5PZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.RandomizeAnimatorParameters.html",
+          "hash": "e9IAhWCdqchchmRbLx/UFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.Signaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.Signaller.html",
+          "hash": "r6oiLDmiqhVF6ZkdrTw7GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.SpawnScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.SpawnScale.html",
+          "hash": "N1qhA9XTqviVTtXzf5QGHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.SpawnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.SpawnType.html",
+          "hash": "i6ugZlWwsT9f/sTDVwxPkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.FXSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.FXSystem.html",
+          "hash": "sUN8MAyNok96u9kjAz4VCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.GameObjectExtensions.html",
+          "hash": "cF8Afr5LNNeRGMdIXrhOQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.HealthSystem.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.HealthSystem.DamageType.html",
+          "hash": "o2zlFzGi/MTP+uxiv+K9Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.HealthSystem.GameObjectHealthExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.HealthSystem.GameObjectHealthExtensions.html",
+          "hash": "hRR9yhvfBAQ99SKRVzUNXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.HealthSystem.HealthComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.HealthSystem.HealthComponent.html",
+          "hash": "XaVMNvdO04Ve8Qqi3DkfsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.HealthSystem.NoneDamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.HealthSystem.NoneDamageType.html",
+          "hash": "glwzXatGsWPIMMC7krhy9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.HealthSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.HealthSystem.html",
+          "hash": "wDebOpbQGFQ+ylhfTm6ojQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KItSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KItSceneManager.html",
+          "hash": "k0Z7pUuFoVuSOml54pDD8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KitAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KitAxis.html",
+          "hash": "X8ySEnPqxtSXG8/kAfoqjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KitAxisFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KitAxisFlags.html",
+          "hash": "gfV7rIUQBEdsWSxcGJ+sVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KitDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KitDebug.html",
+          "hash": "9uikwHa0lyhPXzdh6zJZRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KitMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KitMath.html",
+          "hash": "w8ddlTtc7apQ/S7x0kIVqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.KitRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.KitRandom.html",
+          "hash": "zCNa53gB9dUa79rayXQFXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.LayerMaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.LayerMaskExtensions.html",
+          "hash": "RDhq3AJdyCe38sSYvC6Ldg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.LinqExtensions.html",
+          "hash": "czXTyAz0v9IR/iDGGnMRFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.IModifiable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.IModifiable.html",
+          "hash": "H+cGj/A8Kd/p57yGKEH7/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.IModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.IModifier.html",
+          "hash": "gpMoWHW8Eewh+rEWaCG2gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.Modifiable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.Modifiable-1.html",
+          "hash": "cCerp2qIgbOk3SZKB5kvUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.ModifiableValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.ModifiableValue-1.html",
+          "hash": "Jf/AyUYcTXu0xCyLAmRdCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.Modifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.Modifier.html",
+          "hash": "/s7mM1EuN4nfyJnlpj4vIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.ValueModifier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.ValueModifier-1.html",
+          "hash": "xf1ONJEkBXuDItiaiGe7XA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Modifiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Modifiers.html",
+          "hash": "q1HYcndCQWfB4yTGuqnlQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.PersistentSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.PersistentSingleton-1.html",
+          "hash": "RO0UpPSUazThpzpvy2mt7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.PersistentSingletonBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.PersistentSingletonBehaviour-1.html",
+          "hash": "b7haUCkOsoTb2CwEz/5QBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.RectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.RectExtensions.html",
+          "hash": "xTxWNJtYq76Z/GZtqeH1Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.RendererExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.RendererExtensions.html",
+          "hash": "Z9/ThCF7Jh3/6bHQY07onQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.RigidbodyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.RigidbodyExtensions.html",
+          "hash": "8sWlY2wSFabccuFCuKdpUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.Singleton-1.html",
+          "hash": "GvRgdfWjiNolPNBuSIe4WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.SingletonBehaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.SingletonBehaviour-1.html",
+          "hash": "uAML1ohF7u16Q+LPUmgyOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.StandardSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.StandardSize.html",
+          "hash": "WeZ5sdtLD10zV0u7SyLs2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.TimeSince.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.TimeSince.html",
+          "hash": "1JG+lmwMx6E2Wp9t2pfNhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.TransformExtensions.html",
+          "hash": "YfpZ3tMKHdN0TjOAaWae0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.DataMemberType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.DataMemberType.html",
+          "hash": "ORtkozvir/OCytYYxX0M6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.KeyBindMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.KeyBindMode.html",
+          "hash": "17Lin+chIYCAlep21/jTrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.KeybindButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.KeybindButton.html",
+          "hash": "dWCZkd6QWkuPKWYCl9F/LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.PopupModal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.PopupModal.html",
+          "hash": "WIFvaz3tG1glDaQzcw5AOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.ProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.ProgressBar.html",
+          "hash": "jeLcYLDzGA0tk9VXC1PGdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.TabLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.TabLayoutGroup.html",
+          "hash": "Gai8mATHt3NfM6oXqzPqiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.View.html",
+          "hash": "qWed/FZUmF8q5OoGunO9RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UI.html",
+          "hash": "JNRBWa/mABEPguHJRaTS0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.UnscaledTimeSince.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.UnscaledTimeSince.html",
+          "hash": "h1PZ82M8A0SrpLNhWPfYHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.VectorExtensions.html",
+          "hash": "zYRYJlwZ4omTN8Sf/Cs6gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameJamStarterKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameJamStarterKit.html",
+          "hash": "f7yboJmcJyNF/n4ZOyxlrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/Getting_Started.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/Getting_Started.html",
+          "hash": "oG57O3ifbVKOKFoKbYRecg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "DQWKJg09n/yjW+bLLbnEUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Audio.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Audio.html",
+          "hash": "ZK/FQ8OTv1TuMrtPwQQTjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Camera.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Camera.html",
+          "hash": "xTc0kCDKcKs/p94zfq369Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Core.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Core.html",
+          "hash": "kNU8fn9Xko/wyK8fUSK7qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Currency.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Currency.html",
+          "hash": "fXgF4okgcVhnAPV3WZpLHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/FX_System.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/FX_System.html",
+          "hash": "2BSP8yE7QrBnUrTKClirig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Health_System.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Health_System.html",
+          "hash": "saJeQJ7chs85MznWUeJX0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/Modifiers.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/Modifiers.html",
+          "hash": "iA/y1rqzRHUkmaHU3Fx5gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "modules/UI.md",
+      "output": {
+        ".html": {
+          "relative_path": "modules/UI.html",
+          "hash": "8RiF9oPJV79XnjDooOf6lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 122,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
